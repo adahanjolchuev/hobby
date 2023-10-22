@@ -28,14 +28,13 @@ body {
     transform: translateY(-100px);
   }
   25% {
-
   }
   50% {
     transform: translateY(100px);
   }
 }
 .header-logo img {
-  animation: logo 3s infinite;
+  animation: logo 3s;
 }
 .header-logo h1 {
   color: #374a3d;
@@ -44,7 +43,7 @@ body {
   line-height: 33.203px;
   text-transform: capitalize;
   font-family: sans-serif;
-  animation: logo 3s infinite;
+  animation: logo 3s;
 }
 .header-links {
   margin-left: 16pc;
@@ -376,34 +375,32 @@ body {
 @keyframes serv {
   0% {
     transform: scale3d(1, 1, 1);
-}
-30% {
+  }
+  30% {
     transform: scale3d(1.25, 0.75, 1);
-}
+  }
 
-40% {
+  40% {
     transform: scale3d(0.75, 1.25, 1);
-}
+  }
 
-50% {
+  50% {
     transform: scale3d(1.15, 0.85, 1);
-}
+  }
 
-65% {
+  65% {
     transform: scale3d(0.95, 1.05, 1);
-}
+  }
 
-75% {
+  75% {
     transform: scale3d(1.05, 0.95, 1);
+  }
+
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
 }
 
-100% {
-    transform: scale3d(1, 1, 1);
-}
-}
-.service-block:hover {
-    scale: 1.1;
-}
 .service-block h4 {
   color: #374a3d;
   text-align: center;
@@ -558,7 +555,7 @@ body {
   text-align: center;
   font-size: 18px;
   font-weight: 600;
-  line-height: 32px; /* 177.778% */
+  line-height: 32px;
 }
 .choose-block h6 {
   color: #678570;
@@ -595,11 +592,11 @@ body {
 }
 .price button:hover {
   padding: 10px 20px;
-  background: #de0606;
+  background: #0de638;
   color: #fff;
   border-radius: 10px;
- scale: 1.1;
- transition: 3s;
+  scale: 1.1;
+  transition: 1s;
 }
 /* CHOOSE END*/
 
@@ -676,7 +673,7 @@ input {
   transition: 1s;
 }
 .footer11 span:hover {
-  padding:10px;
+  padding: 10px;
   border-radius: 10px;
   background: #0ca941;
   color: #fff;
@@ -685,7 +682,7 @@ input {
   color: #374a3d;
   font-size: 22px;
   font-weight: 700;
-  line-height: 32px; 
+  line-height: 32px;
 }
 .footer22-p {
   margin-top: 20px;
@@ -702,27 +699,27 @@ hr {
 }
 .image1 {
   position: absolute;
-   top: 332px;
-   animation: image1 2s infinite ;
+  top: 332px;
+  animation: image1 2s infinite;
 }
 .image2 {
   position: absolute;
-   top: 332px;
-   left: 280px;
+  top: 332px;
+  left: 280px;
 }
 .image3 {
   position: absolute;
-   top: 332px;
-   left: 550px;
+  top: 332px;
+  left: 550px;
 }
 .image4 {
   position: absolute;
-   top: 332px;
-   left: 800px;
+  top: 332px;
+  left: 800px;
 }
 .image5 {
   position: absolute;
-   top: 332px;
-   left: 1050px;
+  top: 332px;
+  left: 1050px;
 }
 /* FOOTER END */
